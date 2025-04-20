@@ -1,0 +1,31 @@
+# settings.py
+# Game constants and settings
+
+# Screen dimensions
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+
+# Colors (R, G, B)
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+BLUE = (66, 135, 245)
+GREEN = (0, 200, 64)
+RED = (255, 64, 64)
+GRAY = (180, 180, 180)
+
+# Player settings
+PLAYER_SIZE = 40
+PLAYER_COLOR = BLUE
+PLAYER_SPEED = 5
+PLAYER_JUMP_VELOCITY = -15
+GRAVITY = 1
+
+# Level settings
+GROUND_HEIGHT = 60
+OBSTACLE_COLOR = GRAY
+PLATFORM_COLOR = GREEN
+BACKGROUND_COLOR = WHITE
+
+# UI
+FONT_NAME = 'arial'
+FONT_SIZE = 32
